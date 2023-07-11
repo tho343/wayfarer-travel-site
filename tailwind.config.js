@@ -7,7 +7,10 @@ module.exports = {
         'hero-image' : "url('./assets/norway.jpg')"
       },
       colors:{
-        'primary-blue': "#3D4FBD"
+        'primary-blue': "#3D4FBD",
+        'secondary-blue': "#C4C8DB",
+        'secondary-text':'#363B5A',
+        'ascent-blue': '#444D82'
       }
 
     },

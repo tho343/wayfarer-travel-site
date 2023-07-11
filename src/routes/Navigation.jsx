@@ -8,7 +8,7 @@ export default function Navigation() {
     }
   return (
     <nav>
-        <div className='bg-black max-w-screen flex flex-wrap items-center justify-between mx-auto p-4' >
+        <div className='bg-black max-w-screen flex flex-wrap items-center justify-between mx-auto p-4 px-4' >
             <a className='flex items-center '>
                 <img src={logo} className='h-12 mr-20' alt='logo'></img>
             </a>

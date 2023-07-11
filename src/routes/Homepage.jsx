@@ -3,6 +3,7 @@ import Card from '../components/card.component'
 import ChevronRight from "../assets/chevron-right.svg"
 import Hero from '../components/hero.component'
 import CallAction from '../components/callToAction.component'
+import Contact from '../components/contact.component'
 export default function Homepage() {
     const places = [1,2,3,4,5,6]
   return (
@@ -23,6 +24,7 @@ export default function Homepage() {
         
     </div>
     <CallAction/>
+    <Contact/>
     </Fragment>
     
     

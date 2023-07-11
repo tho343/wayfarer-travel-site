@@ -5,7 +5,11 @@ module.exports = {
     extend: {
       backgroundImage: {
         'hero-image' : "url('./assets/norway.jpg')"
+      },
+      colors:{
+        'primary-blue': "#3D4FBD"
       }
+
     },
   },
   plugins: [],

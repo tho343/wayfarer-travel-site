@@ -13,10 +13,10 @@ export default function Navigation() {
                 <img src={logo} className='h-12 mr-20' alt='logo'></img>
             </a>
             <div className='md:order-2'>
-                <button type="button" className='text-white bg-blue-700 hover:to-blue-800 focus:outline-none  font-medium rounded-md text-md px-4 py-2 text-center mr-3 md:mr-3' >
+                <button type="button" className='text-white bg-primary-blue hover:to-blue-800 focus:outline-none  font-medium rounded-md text-md px-4 py-2 text-center mr-3 md:mr-3' >
                     Sign in
                 </button>
-                <button type="button" className='text-blue-800 bg-white hover:to-blue-800 focus:outline-none  font-medium rounded-md text-md px-4 py-2 text-center mr-3 md:mr-0' >
+                <button type="button" className='text-primary-blue bg-white hover:to-blue-800 focus:outline-none  font-medium rounded-md text-md px-4 py-2 text-center mr-3 md:mr-0' >
                     Sign up
                 </button>
                 <button type="button" data-collapse-toggle="navbar-cta" className='inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600' aria-controls="navbar-cta" aria-expanded="false" onClick={toggleOpen}>

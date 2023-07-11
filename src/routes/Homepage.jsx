@@ -9,12 +9,12 @@ export default function Homepage() {
   return (
     <Fragment>
         <Hero/>
-        <div className='py-20  px-32'>
-        <div className='flex justify-between flex-wrap mb-12'>
+        <div className='md:py-20  md:px-32 py-6 px-7'>
+        <div className='flex justify-between flex-wrap mb-12 '>
         <h1 className='text-primary-blue font-semibold text-4xl '>Destinations</h1>
         <button type="submit" className='bg-primary-blue  text-white px-4 py-2 text-md rounded-3xl inline-flex text-center items-center focus:outline-none gap-1'> View All <img src={ChevronRight}></img></button>
         </div>
-        <div className='flex flex-wrap gap-x-16 gap-y-20 justify-center'>
+        <div className='flex flex-wrap gap-x-8 gap-y-10 md:gap-x-16 md:gap-y-20 justify-center'>
         {
             places.map((item)=>{
                 return <Card/>

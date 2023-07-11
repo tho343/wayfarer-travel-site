@@ -10,7 +10,8 @@ module.exports = {
         'primary-blue': "#3D4FBD",
         'secondary-blue': "#C4C8DB",
         'secondary-text':'#363B5A',
-        'ascent-blue': '#444D82'
+        'ascent-blue': '#444D82',
+        'gray-text-color': '#B6BBD7'
       }
 
     },

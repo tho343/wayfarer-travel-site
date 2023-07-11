@@ -11,7 +11,7 @@ import FilledHeart from "../assets/heart-1.svg"
 
 export default function Card() {
     return (
-        <div className='basis-1/3 max-w-xs min-w-fit h-96 bg-[url(https://plus.unsplash.com/premium_photo-1672855635926-c0c4c0483bf6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1561&q=80)] bg-center flex justify-center content-end flex-wrap rounded-lg overflow-hidden relative '>
+        <div className='md:basis-1/3 basis-6/12  md:max-w-xs md:min-w-fit h-96 bg-[url(https://plus.unsplash.com/premium_photo-1672855635926-c0c4c0483bf6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1561&q=80)] bg-center flex justify-center content-end flex-wrap rounded-lg overflow-hidden relative '>
             <img src={Heart} className='absolute w-12 top-5 right-5 cursor-pointer'></img>
             <div className=' backdrop-blur-lg flex flex-col w-full justify-items-start p-4 space-y-1'>
 

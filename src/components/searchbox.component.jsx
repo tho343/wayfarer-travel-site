@@ -1,13 +1,17 @@
 import React from 'react'
+import Button from './button.component';
 
-export default function Searchbox() {
+
+export default function Searchbox(props) {
+  const placeholder = props.placeholder;
+ 
   return (
     <form>
         <div className='relative'>
         
-        <input type="text" placeholder='Enter your destination'className='w-2/4 p-2 pl-5 rounded-lg focus:outline-none' ></input>
-        <button type="submit" className=' bg-primary-blue text-white px-4 py-2  rounded-lg font-medium ml-2'>Search</button>
-        </div>
+        <input type="text" placeholder={placeholder} className=' py-[0.786rem] pl-4 w-2/4 p-2 rounded-lg rounded-r-none focus:outline-none' ></input>
+        <Button text="Search" primary={true}/>       
+    </div>
         
     </form>
   )

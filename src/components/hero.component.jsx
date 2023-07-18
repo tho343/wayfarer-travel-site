@@ -9,7 +9,7 @@ export default function Hero() {
                     <h1 className=' font-bold text-4xl'>Discover new destinations</h1>
                     <h2 className='font-semibold text-xl'>Wayfarer makes it simple for even the most seasoned travelers to find new journeys to add to their bucket lists.</h2>
             </div> 
-            <Searchbox/>
+            <Searchbox placeholder="Search your destination"/>
             
         </div>
         

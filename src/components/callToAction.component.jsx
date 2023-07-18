@@ -1,6 +1,6 @@
 import React from 'react'
 import Yosemite from "../assets/yosemite-california.jpg"
-
+import Searchbox from './searchbox.component'
 export default function CallAction() {
     return (
         <div className='bg-secondary-blue md:py-20  md:px-32 py-6 px-7 text-left space-y-5'>
@@ -14,10 +14,8 @@ export default function CallAction() {
                 </div>
                 <div className='space-y-5'>
                     <p className='text-secondary-text text-md'>Sign up for our recommended destinations newsletter and receive new adventures each week!</p>
-                    <form className='inline-flex w-full '>
-                        <input className='py-4 pl-4 w-3/4  rounded-md ' type="text" placeholder='Enter your email address'></input>
-                        <button type="submit" className='bg-primary-blue text-white px-3 rounded-md'> Sign Up</button>
-                    </form>
+                    
+                    <Searchbox placeholder="Enter your email address"/>
                 </div>
             </div>
 
